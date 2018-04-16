@@ -1,0 +1,9 @@
+[user] 
+  name = Nicolas Tollenaere
+  email = nicolas.tollenaere@inria.fr
+
+[core]
+  editor = vim
+
+[diff]
+  tool = vimdiff
