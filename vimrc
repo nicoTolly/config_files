@@ -38,7 +38,10 @@ map <C-a> <Plug>(easymotion-prefix)
 " Change highlight color so it does not conflict with neomake
 hi EasyMotionTarget ctermbg=none ctermfg=blue
 
-
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
 filetype plugin indent on
 syntax enable
 set nu
