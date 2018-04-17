@@ -23,7 +23,7 @@ if dein#load_state(expand('~/.local/dein/'))
     call dein#add('neomake/neomake')
     call dein#add('racer-rust/vim-racer')
   endif
-	call dein#add('scrooloose/nerdtree')
+	call dein#add('tmux-plugins/vim-tmux')
 	call dein#add('vim-airline/vim-airline')
 	call dein#end()
 	call dein#save_state()
